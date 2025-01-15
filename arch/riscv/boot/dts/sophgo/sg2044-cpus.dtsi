@@ -33,7 +33,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -68,7 +68,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -103,7 +103,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -138,7 +138,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -173,7 +173,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -208,7 +208,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -243,7 +243,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -278,7 +278,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -313,7 +313,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -348,7 +348,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -383,7 +383,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -418,7 +418,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -453,7 +453,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -488,7 +488,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -523,7 +523,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -558,7 +558,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -593,7 +593,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -628,7 +628,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -663,7 +663,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -698,7 +698,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -733,7 +733,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -768,7 +768,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -803,7 +803,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -838,7 +838,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -873,7 +873,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -908,7 +908,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -943,7 +943,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -978,7 +978,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -1013,7 +1013,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -1048,7 +1048,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -1083,7 +1083,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -1118,7 +1118,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -1153,7 +1153,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -1188,7 +1188,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -1223,7 +1223,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -1258,7 +1258,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -1293,7 +1293,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -1328,7 +1328,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -1363,7 +1363,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -1398,7 +1398,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -1433,7 +1433,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -1468,7 +1468,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -1503,7 +1503,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -1538,7 +1538,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -1573,7 +1573,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -1608,7 +1608,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -1643,7 +1643,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -1678,7 +1678,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -1713,7 +1713,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -1748,7 +1748,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -1783,7 +1783,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -1818,7 +1818,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -1853,7 +1853,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -1888,7 +1888,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -1923,7 +1923,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -1958,7 +1958,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -1993,7 +1993,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -2028,7 +2028,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -2063,7 +2063,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -2098,7 +2098,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -2133,7 +2133,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -2168,7 +2168,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -2203,7 +2203,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
@@ -2238,7 +2238,7 @@
 					       "zbs", "zca", "zcb", "zcd",
 					       "zfa", "zfbfmin", "zfh", "zfhmin",
 					       "zicbom", "zicbop", "zicboz",
-					       "zicntr", "zicond","zicsr", "zifencei",
+					       "ziccrse", "zicntr", "zicond","zicsr", "zifencei",
 					       "zihintntl", "zihintpause", "zihpm",
 					       "zvfbfmin", "zvfbfwma", "zvfh",
 					       "zvfhmin";
