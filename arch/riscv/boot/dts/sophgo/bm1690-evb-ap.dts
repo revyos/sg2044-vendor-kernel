@@ -76,7 +76,7 @@
 			reg-names = "dbi", "atu", "ctrl";
 
 			sophgo_card@0 {
-				compatible = "sophgo,sophgo-card";
+				compatible = "rv2036,unknown-card";
 				reg = <0x1e  0xf8000000 0x00000000 0x01400000>,
 				      <0x70 0x101ff000 0x00000000 0x00001000>,
 				      <0x70 0x50000000 0x00000000 0x00001000>;

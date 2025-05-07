@@ -72,7 +72,7 @@ static int sophgo_pcie_link_probe(struct platform_device *pdev)
 	if (!res)
 		return -ENOMEM;
 
-	child_node = of_get_compatible_child(dev->of_node, "sophgo,sophgo-card");
+	child_node = of_get_compatible_child(dev->of_node, "rv2036,unknown-card");
 	if (!child_node) {
 		pr_err("failed to find sophgo-card node\n");
 		return -ENODEV;

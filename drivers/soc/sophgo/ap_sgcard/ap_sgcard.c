@@ -2052,7 +2052,7 @@ static void sgcard_remove(struct platform_device *pdev)
 }
 
 static struct of_device_id sophgo_card_of_match[] = {
-	{ .compatible = "sophgo,sophgo-card",},
+	{ .compatible = "rv2036,unknown-card",},
 	{ /* Sentinel */ }
 };
 MODULE_DEVICE_TABLE(of, sophgo_card_of_match);

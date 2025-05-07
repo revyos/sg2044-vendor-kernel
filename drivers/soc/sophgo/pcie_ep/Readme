@@ -44,7 +44,7 @@
 			reg-names = "dbi", "atu", "config", "c2c_top", "c2c_config_base";
 
 			sophgo_card@0 {
-				compatible = "sophgo,sophgo-card";
+				compatible = "rv2036,unknown-card";
 				reg = <0x70 0x10180000 0x00000000 0x00080000>,
 					<0x70 0x50000000 0x00000000 0x00001000>,
 					<0x70 0x101ff000 0x00000000 0x00001000>;
@@ -81,7 +81,7 @@
 		};
 #else
 		sophgo_card@0 {
-				compatible = "sophgo,sophgo-card";
+				compatible = "rv2036,unknown-card";
 				reg = <0x70 0x10180000 0x00000000 0x00080000>,
 					<0x70 0x50000000 0x00000000 0x00001000>,
 					<0x70 0x101ff000 0x00000000 0x00001000>;
@@ -146,7 +146,7 @@ pcie_ep@0 {
 	reg-names = "config";
 
 	sophgo_card@0 {
-		compatible = "sophgo,sophgo-card";
+		compatible = "rv2036,unknown-card";
 		reg = <0x4 0x00000000 0x00000000 0x40000000>;
 		// memory-region = <&vpu_reserved>;
 		host-channel-num = <1>;

@@ -1,6 +1,6 @@
 // dtb example for bm1690
 sophgo_card@0 {
-	compatible = "sophgo,sophgo-card";
+	compatible = "rv2036,unknown-card";
 	reg = <0x4 0x00000000 0x00000000 0x40000000>;
 	// memory-region = <&vpu_reserved>;
 	channel-num = <2>;
