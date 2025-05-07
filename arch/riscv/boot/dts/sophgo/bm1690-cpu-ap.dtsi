@@ -5,7 +5,7 @@
 
 / {
     model = "SOPHGO BM1690 TOP CPU";
-	compatible = "sophgo,sg2044";
+	compatible = "rv2036,c920v2";
 	#address-cells = <2>;
 	#size-cells = <2>;
 	dma-noncoherent;
@@ -88,7 +88,7 @@
 		ranges;
 
 		aclint_mswi: interrupt-controller@6e04000000 {
-			compatible = "sophgo,sg2044-aclint-mswi", "thead,c900-aclint-mswi";
+			compatible = "rv2036,c920v2-aclint-mswi", "thead,c900-aclint-mswi";
 			reg = <0x0000006e 0x04000000 0x00000000 0x00004000>;
 			interrupts-extended = <
 				&cpu0_intc 3
@@ -111,7 +111,7 @@
 		};
 
 		aclint_sswi: interrupt-controller@6e0400c000 {
-			compatible = "sophgo,sg2044-aclint-sswi", "thead,c900-aclint-sswi";
+			compatible = "rv2036,c920v2-aclint-sswi", "thead,c900-aclint-sswi";
 			reg = <0x0000006e 0x0400c000 0x00000000 0x00004000>;
 			#interrupt-cells = <0>;
 			interrupt-controller;

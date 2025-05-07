@@ -283,7 +283,7 @@ static struct sg_soc_pinctrl_data sg2044_pinctrl_data = {
 
 static const struct of_device_id sg2044_pinctrl_of_table[] = {
 	{
-		.compatible = "sophgo, pinctrl-sg2044",
+		.compatible = "rv2036, pinctrl-c920v2",
 		.data = &sg2044_pinctrl_data,
 	},
 	{},

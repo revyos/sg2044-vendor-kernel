@@ -46,7 +46,7 @@ required:
 examples:
   - |
     interrupt-controller@94000000 {
-      compatible = "sophgo,sg2044-aclint-sswi", "thead,c900-aclint-sswi";
+      compatible = "rv2036,c920v2-aclint-sswi", "thead,c900-aclint-sswi";
       reg = <0x94000000 0x00004000>;
       #interrupt-cells = <0>;
       interrupt-controller;

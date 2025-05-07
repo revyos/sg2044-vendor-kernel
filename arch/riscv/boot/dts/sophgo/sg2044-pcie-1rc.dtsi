@@ -7,7 +7,7 @@
 
 /soc {
 	pcie@6c08000000 {
-		compatible = "sophgo,sg2044-pcie-host";
+		compatible = "rv2036,c920v2-pcie-host";
 		device_type = "pci";
 		#address-cells = <3>;
 		#size-cells = <2>;

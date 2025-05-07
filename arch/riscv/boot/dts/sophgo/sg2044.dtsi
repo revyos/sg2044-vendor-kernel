@@ -6,7 +6,7 @@
 
 / {
 	model = "SOPHGO SG2044 RISC-V";
-	compatible = "sophgo,sg2044";
+	compatible = "rv2036,c920v2";
 	#address-cells = <2>;
 	#size-cells = <2>;
 	dma-noncoherent;

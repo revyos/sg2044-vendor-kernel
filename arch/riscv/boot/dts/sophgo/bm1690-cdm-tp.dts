@@ -7,7 +7,7 @@
 
 / {
 	model = "SOPHGO BM1690 TPU SCALAR";
-	compatible = "sophgo,sg2044";
+	compatible = "rv2036,c920v2";
 	#address-cells = <2>;
 	#size-cells = <2>;
 	dma-noncoherent;
@@ -76,7 +76,7 @@
 		};
 
 		uart0: serial@7030002000 {
-			compatible = "sophgo,sg2044-uart", "snps,dw-apb-uart";
+			compatible = "rv2036,c920v2-uart", "snps,dw-apb-uart";
 			reg = <0x00000070 0x30002000 0x00000000 0x00001000>;
 			interrupt-parent = <&intc>;
 			interrupts = <4>;

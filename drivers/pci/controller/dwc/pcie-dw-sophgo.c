@@ -1917,7 +1917,7 @@ int sophgo_dw_pcie_probe(struct platform_device *pdev)
 }
 
 static const struct of_device_id sophgo_dw_pcie_of_match[] = {
-	{ .compatible = "sophgo,sg2044-pcie-host", },
+	{ .compatible = "rv2036,c920v2-pcie-host", },
 	{ .compatible = "sophgo,bm1690-pcie-host", },
 	{},
 };

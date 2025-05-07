@@ -2721,7 +2721,7 @@
 		ranges;
 
 		aclint_mswi: interrupt-controller@6d44000000 {
-			compatible = "sophgo,sg2044-aclint-mswi", "thead,c900-aclint-mswi";
+			compatible = "rv2036,c920v2-aclint-mswi", "thead,c900-aclint-mswi";
 			reg = <0x6d 0x44000000 0x0 0x00004000>;
 			interrupts-extended = <&cpu0_intc 3>,
 					      <&cpu1_intc 3>,
@@ -2790,7 +2790,7 @@
 		};
 
 		aclint_mtimer: timer@6d44004000 {
-			compatible = "sophgo,sg2044-aclint-mtimer", "thead,c900-aclint-mtimer";
+			compatible = "rv2036,c920v2-aclint-mtimer", "thead,c900-aclint-mtimer";
 			reg = <0x6d 0x44004000 0x0 0x00008000>;
 			reg-names = "mtimecmp";
 			interrupts-extended = <&cpu0_intc 7>,
@@ -2860,7 +2860,7 @@
 		};
 
 		aclint_sswi: interrupt-controller@6d4400c000 {
-			compatible = "sophgo,sg2044-aclint-sswi", "thead,c900-aclint-sswi";
+			compatible = "rv2036,c920v2-aclint-sswi", "thead,c900-aclint-sswi";
 			reg = <0x6d 0x4400c000 0x0 0x00001000>;
 			#interrupt-cells = <0>;
 			interrupt-controller;
@@ -2931,7 +2931,7 @@
 		};
 
 		intc: interrupt-controller@6d40000000 {
-			compatible = "sophgo,sg2044-plic", "thead,c900-plic";
+			compatible = "rv2036,c920v2-plic", "thead,c900-plic";
 			#address-cells = <0>;
 			#interrupt-cells = <2>;
 			reg = <0x6d 0x40000000 0x0 0x10000000>;

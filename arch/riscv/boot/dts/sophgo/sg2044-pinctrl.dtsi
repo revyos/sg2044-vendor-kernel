@@ -6,7 +6,7 @@
 / {
 	soc {
 	    pctrl@7050001000 {
-			compatible = "sophgo, pinctrl-sg2044";
+			compatible = "rv2036, pinctrl-c920v2";
 			subctrl-syscon = <&top_misc>;
 			top_pinctl_offset = <0x1000>;
 			smbus0_acquire: smbus0_acquire {

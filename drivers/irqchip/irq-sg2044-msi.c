@@ -351,7 +351,7 @@ out:
 
 static const struct of_device_id sg2044_msi_of_match[] = {
 	{
-		.compatible = "sophgo,sg2044-msi",
+		.compatible = "rv2036,c920v2-msi",
 	},
 	{},
 };
@@ -365,7 +365,7 @@ static const struct acpi_device_id sg2044_msi_acpi_match[] = {
 
 static struct platform_driver sg2044_msi_driver = {
 	.driver = {
-		.name = "sg2044-msi",
+		.name = "c920v2-msi",
 		.owner = THIS_MODULE,
 		.of_match_table = of_match_ptr(sg2044_msi_of_match),
 		.acpi_match_table = ACPI_PTR(sg2044_msi_acpi_match),

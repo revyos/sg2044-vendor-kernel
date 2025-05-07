@@ -222,20 +222,20 @@ static void sg_dwmac_probe_config_dt(struct platform_device *pdev, struct plat_s
 							     plat->multicast_filter_bins);
 	plat->flags |= (STMMAC_FLAG_SPH_DISABLE);
 
-	if (device_property_read_bool(&pdev->dev, "sophgo,gmac-no-rxdelay")) {
+	if (device_property_read_bool(&pdev->dev, "rv2036,gmac-no-rxdelay")) {
 		top_addr = devm_platform_ioremap_resource(pdev, 1);
 		val = readl(top_addr + 0x8);
 		writel(val | (1 << 16), top_addr + 0x8);
 		pr_info("sophgo gmac disable rx delay\n");
 	}
 
-	if (device_property_read_bool(&pdev->dev, "sophgo,gmac")) {
+	if (device_property_read_bool(&pdev->dev, "rv2036,gmac")) {
 		plat->has_gmac4 = 1;
 		plat->has_gmac = 0;
 		plat->pmt = 1;
 		tso_en = device_property_read_bool(&pdev->dev, "snps,tso");
 		plat->flags |= (tso_en ? STMMAC_FLAG_TSO_EN : 0);
-	} else if (device_property_read_bool(&pdev->dev, "sophgo,xlgmac")) {
+	} else if (device_property_read_bool(&pdev->dev, "rv2036,xlgmac")) {
 		plat->has_gmac4 = 0;
 		plat->has_gmac = 0;
 		plat->has_xgmac = 1;
@@ -289,7 +289,7 @@ static int sg_dwmac_probe(struct platform_device *pdev)
 	if (is_of_node(fwnode)) {
 		struct device_node *np = pdev->dev.of_node;
 		/* clock setup */
-		if (of_find_property(np, "sophgo,gmac", NULL)) {
+		if (of_find_property(np, "rv2036,gmac", NULL)) {
 			bsp_priv->clk_tx = devm_clk_get(&pdev->dev,
 						"clk_tx");
 			if (IS_ERR(bsp_priv->clk_tx))
@@ -308,7 +308,7 @@ static int sg_dwmac_probe(struct platform_device *pdev)
 				dev_warn(&pdev->dev, "Cannot get mac ref gating clock!\n");
 			else
 				clk_prepare_enable(bsp_priv->gate_clk_ref);
-		} else if (of_find_property(np, "sophgo,xlgmac", NULL)) {
+		} else if (of_find_property(np, "rv2036,xlgmac", NULL)) {
 			bsp_priv->gate_clk_cxp_mac = devm_clk_get(&pdev->dev, "clk_gate_cxp_mac");
 			if (IS_ERR(bsp_priv->gate_clk_cxp_mac))
 				dev_warn(&pdev->dev, "Cannot get cxp mac gating clock!\n");
@@ -322,7 +322,7 @@ static int sg_dwmac_probe(struct platform_device *pdev)
 				clk_prepare_enable(bsp_priv->gate_clk_cxp_cfg);
 		}
 	} else {
-		if (device_property_read_bool(&pdev->dev, "sophgo,gmac"))
+		if (device_property_read_bool(&pdev->dev, "rv2036,gmac"))
 			plat_dat->fix_mac_speed = sg_mac_fix_speed;
 	}
 
@@ -361,7 +361,7 @@ err_remove_config_dt:
 }
 
 static const struct of_device_id sg_dwmac_match[] = {
-	{ .compatible = "sophgo,ethernet" },
+	{ .compatible = "rv2036,ethernet" },
 	{ }
 };
 MODULE_DEVICE_TABLE(of, sg_dwmac_match);

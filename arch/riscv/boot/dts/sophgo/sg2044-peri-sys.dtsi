@@ -19,7 +19,7 @@
 		};
 
 		uart0: serial@7030000000 {
-			compatible = "sophgo,sg2044-uart", "snps,dw-apb-uart";
+			compatible = "rv2036,c920v2-uart", "snps,dw-apb-uart";
 			reg = <0x00000070 0x30000000 0x00000000 0x00001000>;
 			interrupt-parent = <&intc>;
 			interrupts = <41 IRQ_TYPE_LEVEL_HIGH>;
@@ -33,7 +33,7 @@
 		};
 
 		uart1: serial@7030001000 {
-			compatible = "sophgo,sg2044-uart", "snps,dw-apb-uart";
+			compatible = "rv2036,c920v2-uart", "snps,dw-apb-uart";
 			reg = <0x00000070 0x30001000 0x00000000 0x00001000>;
 			interrupt-parent = <&intc>;
 			interrupts = <42 IRQ_TYPE_LEVEL_HIGH>;
@@ -47,7 +47,7 @@
 		};
 
 		uart2: serial@7030002000 {
-			compatible = "sophgo,sg2044-uart", "snps,dw-apb-uart";
+			compatible = "rv2036,c920v2-uart", "snps,dw-apb-uart";
 			reg = <0x00000070 0x30002000 0x00000000 0x00001000>;
 			interrupt-parent = <&intc>;
 			interrupts = <43 IRQ_TYPE_LEVEL_HIGH>;
@@ -61,7 +61,7 @@
 		};
 
 		uart3: serial@7030003000 {
-			compatible = "sophgo,sg2044-uart", "snps,dw-apb-uart";
+			compatible = "rv2036,c920v2-uart", "snps,dw-apb-uart";
 			reg = <0x00000070 0x30003000 0x00000000 0x00001000>;
 			interrupt-parent = <&intc>;
 			interrupts = <44 IRQ_TYPE_LEVEL_HIGH>;
@@ -75,7 +75,7 @@
 		};
 
 		emmc: mmc@703000A000 {
-			compatible = "sophgo,sg2044-dwcmshc", "sophgo,sg2042-dwcmshc";
+			compatible = "rv2036,c920v2-dwcmshc", "sophgo,sg2042-dwcmshc";
 			reg = <0x70 0x3000A000 0x0 0x1000>;
 			reg-names = "core_mem";
 			interrupt-parent = <&intc>;
@@ -95,7 +95,7 @@
 		};
 
 		sd: mmc@703000B000 {
-			compatible = "sophgo,sg2044-dwcmshc", "sophgo,sg2042-dwcmshc";
+			compatible = "rv2036,c920v2-dwcmshc", "sophgo,sg2042-dwcmshc";
 			reg = <0x70 0x3000B000 0x0 0x1000>;
 			reg-names = "core_mem";
 			interrupt-parent = <&intc>;

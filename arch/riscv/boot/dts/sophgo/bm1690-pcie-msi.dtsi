@@ -2,7 +2,7 @@
 / {
 	soc {
 		msi: msi-controller@6E10000000 {
-			compatible = "sophgo,sg2044-msi";
+			compatible = "rv2036,c920v2-msi";
 			reg = <0x0  0xFEE00060 0x0 0x8>,
 			      <0x6E 0x10000000 0x0 0x256>;
 			reg-names = "set", "clr";
