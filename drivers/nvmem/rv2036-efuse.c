@@ -288,4 +288,4 @@ module_platform_driver(sg_efuse_platform_driver);
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("zhencheng.zhang");
-MODULE_DESCRIPTION("Sophgo Efuse NVMEM Driver");
+MODULE_DESCRIPTION("RV2036 Efuse NVMEM Driver");

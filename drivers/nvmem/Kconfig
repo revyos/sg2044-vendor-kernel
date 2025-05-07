@@ -300,9 +300,9 @@ config NVMEM_SNVS_LPGPR
 	  will be called nvmem-snvs-lpgpr.
 
 config NVMEM_SOPHGO_EFUSE
-	tristate "Sophgo eFuse support"
+	tristate "RV2036 eFuse support"
 	help
-	  This is a driver to access hardware related data of Sophgo SoC's from
+	  This is a driver to access hardware related data of RV2036 SoC's from
 	  efuse.
 
 config NVMEM_SPMI_SDAM
