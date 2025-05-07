@@ -197,17 +197,17 @@ static struct mcfg_fixup mcfg_quirks[] = {
 
 #ifdef CONFIG_RISCV
 #define RISCV_ECAM_MCFG(table_id, seg) \
-    { "SOPHGO", table_id, 1, seg, MCFG_BUS_ANY, &sophgo_pci_ecam_ops }
-	RISCV_ECAM_MCFG("2044    ", 0),
-	RISCV_ECAM_MCFG("2044    ", 1),
-	RISCV_ECAM_MCFG("2044    ", 2),
-	RISCV_ECAM_MCFG("2044    ", 3),
-	RISCV_ECAM_MCFG("2044    ", 4),
-	RISCV_ECAM_MCFG("2044    ", 5),
-	RISCV_ECAM_MCFG("2044    ", 6),
-	RISCV_ECAM_MCFG("2044    ", 7),
-	RISCV_ECAM_MCFG("2044    ", 8),
-	RISCV_ECAM_MCFG("2044    ", 9),
+    { "RV2036", table_id, 1, seg, MCFG_BUS_ANY, &sophgo_pci_ecam_ops }
+	RISCV_ECAM_MCFG("C920    ", 0),
+	RISCV_ECAM_MCFG("C920    ", 1),
+	RISCV_ECAM_MCFG("C920    ", 2),
+	RISCV_ECAM_MCFG("C920    ", 3),
+	RISCV_ECAM_MCFG("C920    ", 4),
+	RISCV_ECAM_MCFG("C920    ", 5),
+	RISCV_ECAM_MCFG("C920    ", 6),
+	RISCV_ECAM_MCFG("C920    ", 7),
+	RISCV_ECAM_MCFG("C920    ", 8),
+	RISCV_ECAM_MCFG("C920    ", 9),
 #endif /* RISCV */
 
 };
