@@ -628,19 +628,19 @@ struct sg2044_clk_table mux_clk_tables[] = {
 
 static const struct of_device_id sg2044_clk_match_ids_tables[] = {
 	{
-		.compatible = "sg2044, pll-clock",
+		.compatible = "c920v2, pll-clock",
 		.data = &pll_clk_tables,
 	},
 	{
-		.compatible = "sg2044, pll-child-clock",
+		.compatible = "c920v2, pll-child-clock",
 		.data = div_clk_tables,
 	},
 	{
-		.compatible = "sg2044, pll-mux-clock",
+		.compatible = "c920v2, pll-mux-clock",
 		.data = mux_clk_tables,
 	},
 	{
-		.compatible = "sg2044, clk-default-rates",
+		.compatible = "c920v2, clk-default-rates",
 	},
 	{}
 };
@@ -671,7 +671,7 @@ static void __init sg2044_clk_init(struct device_node *node)
 	}
 
 	spin_lock_init(&clk_data->lock);
-	if (of_device_is_compatible(node, "sg2044, pll-clock")) {
+	if (of_device_is_compatible(node, "c920v2, pll-clock")) {
 		np_top = of_parse_phandle(node, "subctrl-syscon", 0);
 		if (!np_top) {
 			pr_err("%s can't get subctrl-syscon node\n",
@@ -706,7 +706,7 @@ static void __init sg2044_clk_init(struct device_node *node)
 		ret = sg2044_register_pll_clks(node, clk_data, id);
 	}
 
-	if (of_device_is_compatible(node, "sg2044, pll-child-clock")) {
+	if (of_device_is_compatible(node, "c920v2, pll-child-clock")) {
 		ret = of_property_read_u32(node, "id", &id);
 		if (ret) {
 			pr_err("not assigned id for %s\n", node->full_name);
@@ -727,7 +727,7 @@ static void __init sg2044_clk_init(struct device_node *node)
 		ret = sg2044_register_div_clks(node, clk_data);
 	}
 
-	if (of_device_is_compatible(node, "sg2044, pll-mux-clock")) {
+	if (of_device_is_compatible(node, "c920v2, pll-mux-clock")) {
 		ret = of_property_read_u32(node, "id", &id);
 		if (ret) {
 			pr_err("not assigned id for %s\n", node->full_name);
@@ -748,7 +748,7 @@ static void __init sg2044_clk_init(struct device_node *node)
 		ret = sg2044_register_mux_clks(node, clk_data);
 	}
 
-	if (of_device_is_compatible(node, "sg2044, clk-default-rates"))
+	if (of_device_is_compatible(node, "c920v2, clk-default-rates"))
 		ret = set_default_clk_rates(node);
 
 	if (!ret)
@@ -761,7 +761,7 @@ out:
 	pr_err("%s failed error number %d\n", __func__, ret);
 }
 
-CLK_OF_DECLARE(sg2044_clk_pll, "sg2044, pll-clock", sg2044_clk_init);
-CLK_OF_DECLARE(sg2044_clk_pll_child, "sg2044, pll-child-clock", sg2044_clk_init);
-CLK_OF_DECLARE(sg2044_clk_pll_mux, "sg2044, pll-mux-clock", sg2044_clk_init);
-CLK_OF_DECLARE(sg2044_clk_default_rate, "sg2044, clk-default-rates", sg2044_clk_init);
+CLK_OF_DECLARE(sg2044_clk_pll, "c920v2, pll-clock", sg2044_clk_init);
+CLK_OF_DECLARE(sg2044_clk_pll_child, "c920v2, pll-child-clock", sg2044_clk_init);
+CLK_OF_DECLARE(sg2044_clk_pll_mux, "c920v2, pll-mux-clock", sg2044_clk_init);
+CLK_OF_DECLARE(sg2044_clk_default_rate, "c920v2, clk-default-rates", sg2044_clk_init);
