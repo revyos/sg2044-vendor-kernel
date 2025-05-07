@@ -25,7 +25,7 @@ jobs:
             cross: riscv64-linux-gnu-
             machine: [ self-hosted, Linux, riscv64 ]
             run_image: ghcr.io/revyos/revyos-kernel-builder:riscv64-2024.04.19
-            board: sg2044
+            board: rv2036
             compiler: riscv64-linux-gnu-gcc-13
 
     runs-on: ${{ matrix.machine }}
