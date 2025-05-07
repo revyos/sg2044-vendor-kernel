@@ -85,7 +85,7 @@ static const struct reset_control_ops sg2044_reset_ops = {
 };
 
 static const struct of_device_id sg2044_reset_dt_ids[] = {
-	 { .compatible = "sophgo,reset", },
+	 { .compatible = "rv2036,reset", },
 	 { /* sentinel */ },
 };
 MODULE_DEVICE_TABLE(of, sg2044_reset_dt_ids);

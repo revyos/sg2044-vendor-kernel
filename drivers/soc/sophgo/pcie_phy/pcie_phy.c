@@ -223,7 +223,7 @@ static const struct phy_ops ops = {
 
 static const struct of_device_id sophgo_pcie_phy_dt_ids[] = {
 	{
-		.compatible = "sophgo,pcie-phy",
+		.compatible = "rv2036,pcie-phy",
 	},
 	{}
 };

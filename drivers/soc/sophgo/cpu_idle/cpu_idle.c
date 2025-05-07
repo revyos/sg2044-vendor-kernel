@@ -49,7 +49,7 @@ static int cpu_idle_probe(struct platform_device *pdev)
 }
 
 static const struct of_device_id cpu_idle_dt_ids[] = {
-	{.compatible = "sophgo, cpu-idle-intr"},
+	{.compatible = "rv2036, cpu-idle-intr"},
 	{}
 };
 

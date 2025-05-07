@@ -207,14 +207,14 @@ static int sgcard_probe(struct platform_device *pdev)
 }
 
 static struct of_device_id sophgo_card_ras_of_match[] = {
-	{ .compatible = "sophgo,bm1690-ras",},
+	{ .compatible = "rv2036,rv2266-ras",},
 	{ /* Sentinel */ }
 };
 MODULE_DEVICE_TABLE(of, sophgo_card_of_match);
 
 static struct platform_driver sg_card_platform_driver = {
 	.driver = {
-		.name		= "bm1690-ras",
+		.name		= "rv2266-ras",
 		.of_match_table	= sophgo_card_ras_of_match,
 	},
 	.probe			= sgcard_probe,

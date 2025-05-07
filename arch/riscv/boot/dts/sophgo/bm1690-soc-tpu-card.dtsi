@@ -6,7 +6,7 @@
 / {
 	soc {
 		ap_ras@0 {
-			compatible = "sophgo,bm1690-ras";
+			compatible = "rv2036,rv2266-ras";
 			chip_type = "bm1690";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -16,7 +16,7 @@
 		};
 
 		tp0_ras@0 {
-			compatible = "sophgo,bm1690-ras";
+			compatible = "rv2036,rv2266-ras";
 			chip_type = "bm1690";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -26,7 +26,7 @@
 		};
 
 		tp1_ras@1 {
-			compatible = "sophgo,bm1690-ras";
+			compatible = "rv2036,rv2266-ras";
 			chip_type = "bm1690";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -36,7 +36,7 @@
 		};
 
 		tp2_ras@2 {
-			compatible = "sophgo,bm1690-ras";
+			compatible = "rv2036,rv2266-ras";
 			chip_type = "bm1690";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -46,7 +46,7 @@
 		};
 
 		tp3_ras@3 {
-			compatible = "sophgo,bm1690-ras";
+			compatible = "rv2036,rv2266-ras";
 			chip_type = "bm1690";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -56,7 +56,7 @@
 		};
 
 		tp4_ras@4 {
-			compatible = "sophgo,bm1690-ras";
+			compatible = "rv2036,rv2266-ras";
 			chip_type = "bm1690";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -66,7 +66,7 @@
 		};
 
 		tp5_ras@5 {
-			compatible = "sophgo,bm1690-ras";
+			compatible = "rv2036,rv2266-ras";
 			chip_type = "bm1690";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -76,7 +76,7 @@
 		};
 
 		tp6_ras@6 {
-			compatible = "sophgo,bm1690-ras";
+			compatible = "rv2036,rv2266-ras";
 			chip_type = "bm1690";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -86,7 +86,7 @@
 		};
 
 		tp7_ras@7 {
-			compatible = "sophgo,bm1690-ras";
+			compatible = "rv2036,rv2266-ras";
 			chip_type = "bm1690";
 			#address-cells = <2>;
 			#size-cells = <2>;

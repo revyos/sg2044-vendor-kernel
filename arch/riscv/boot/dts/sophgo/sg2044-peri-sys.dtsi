@@ -12,7 +12,7 @@
 
 		rst: reset-controller {
 			#reset-cells = <1>;
-			compatible = "sophgo,reset";
+			compatible = "rv2036,reset";
 			subctrl-syscon = <&top_misc>;
 			top_rst_offset = <0x3000>;
 			nr_resets = <RST_MAX_NUM>;
@@ -277,7 +277,7 @@
 		};
 
 		pwm: pwm@704000c000 {
-			compatible = "sophgo,sg-pwm";
+			compatible = "rv2036,sg-pwm";
 			reg = <0x70 0x4000c000 0x0 0x1000>;
 			clocks = <&div_clk GATE_CLK_APB_PWM>;
 			#pwm-cells = <2>;
@@ -369,7 +369,7 @@
 		};
 
 		ethernet: ethernet@7030006000 {
-			compatible = "sophgo,ethernet";
+			compatible = "rv2036,ethernet";
 			reg = <0x70 0x30006000 0x0 0x4000>,
 				<0x70 0x50000000 0x0 0x0400>;
 			interrupt-names = "macirq";
@@ -466,7 +466,7 @@
 		};
 
 		dwcxlg0: dwcxlg@6c08000000 {
-			compatible = "sophgo,ethernet";
+			compatible = "rv2036,ethernet";
 			reg = <0x6c 0x08000000 0x0 0x40000>;
 			clock-names = "clk_gate_cxp_mac", "clk_gate_cxp_cfg";
 			clocks = <&div_clk GATE_CLK_CXP_MAC>,

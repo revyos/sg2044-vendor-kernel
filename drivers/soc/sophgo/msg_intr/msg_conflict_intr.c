@@ -152,7 +152,7 @@ static void msg_err_intr_remove(struct platform_device *pdev)
 
 static const struct of_device_id tpsys_err_intr_of_match[] = {
 	{
-		.compatible = "sophgo,msg-cmd-conflict-intr",
+		.compatible = "rv2036,msg-cmd-conflict-intr",
 	},
 	{},
 };

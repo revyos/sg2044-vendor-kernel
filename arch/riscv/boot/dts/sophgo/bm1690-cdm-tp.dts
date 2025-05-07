@@ -87,19 +87,19 @@
 		};
 
 		msg_cmd_conflict_intr: msg_cmd_conflict_intr {
-			compatible = "sophgo,msg-cmd-conflict-intr";
+			compatible = "rv2036,msg-cmd-conflict-intr";
 			interrupt-parent = <&intc>;
 			interrupts = <53>;
 		};
 
 		cpu_idle_intr: cpu_idle_intr {
-			compatible = "sophgo,cpu-idle-intr";
+			compatible = "rv2036,cpu-idle-intr";
 			interrupt-parent = <&intc>;
 			interrupts = <39>;
 		};
 
 		vtty0: vtty@bfff0000 {
-			compatible = "sophgo,vtty-tp";
+			compatible = "rv2036,vtty-tp";
 			#size-cells = <0x2>;
 			#address-cells = <0x2>;
 			reg = <0x1f 0x1fff0000 0x0 0x1000>,

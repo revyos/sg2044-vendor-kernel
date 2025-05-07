@@ -368,8 +368,8 @@ struct vector_info *sophgo_ep_alloc_vector(int pcie_id, int vector_id)
 EXPORT_SYMBOL_GPL(sophgo_ep_alloc_vector);
 
 static const struct of_device_id sophgo_pcie_ep_of_match[] = {
-	{ .compatible = "sophgo,pcie-link-ep", (const void *)PCIE_DATA_LINK_PCIE},
-	{ .compatible = "sophgo,c2c-link-ep", (const void *)PCIE_DATA_LINK_C2C},
+	{ .compatible = "rv2036,pcie-link-ep", (const void *)PCIE_DATA_LINK_PCIE},
+	{ .compatible = "rv2036,c2c-link-ep", (const void *)PCIE_DATA_LINK_C2C},
 	{ /* Sentinel */ }
 };
 MODULE_DEVICE_TABLE(of, sophgo_pcie_ep_of_match);

@@ -706,10 +706,10 @@ static int sophgo_dw_pcie_get_resources(struct sophgo_dw_pcie *pcie)
 			return -1;
 		}
 
-		if (of_device_is_compatible(np, "sophgo,bm1690-c2c-pcie-host")) {
+		if (of_device_is_compatible(np, "sophgo,rv2266-c2c-pcie-host")) {
 			pcie->c2c_pcie_rc = 1;
 			dev_err(dev, "probe c2c pcie host\n");
-		} else if (of_device_is_compatible(np, "sophgo,bm1690-pcie-host")) {
+		} else if (of_device_is_compatible(np, "sophgo,rv2266-pcie-host")) {
 			pcie->c2c_pcie_rc = 0;
 			pcie->chip_type = CHIP_BM1690;
 			pcie->dst_chipid_shift = 57;
@@ -1918,7 +1918,7 @@ int sophgo_dw_pcie_probe(struct platform_device *pdev)
 
 static const struct of_device_id sophgo_dw_pcie_of_match[] = {
 	{ .compatible = "rv2036,c920v2-pcie-host", },
-	{ .compatible = "sophgo,bm1690-pcie-host", },
+	{ .compatible = "rv2036,rv2266-pcie-host", },
 	{},
 };
 

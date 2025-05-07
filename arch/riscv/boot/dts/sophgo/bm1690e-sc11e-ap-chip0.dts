@@ -57,7 +57,7 @@
 
 		//c2c0 x8/x4
 		pciephy_0: pciephy_0@6C00f81000 {
-			compatible = "sophgo,pcie-phy";
+			compatible = "rv2036,pcie-phy";
 			#phy-cells = <1>;
 			reg = <0x6c 0x08781000 0x0 0x00001000>;
 			bus-width = <8>;
@@ -65,7 +65,7 @@
 
 		//c2c1 x8/x4
 		pciephy_1: pciephy_1@6C00781000 {
-			compatible = "sophgo,pcie-phy";
+			compatible = "rv2036,pcie-phy";
 			#phy-cells = <1>;
 			reg = <0x6c 0x02781000 0x0 0x00001000>;
 			bus-width = <8>;
@@ -73,7 +73,7 @@
 
 		//c2c2 x8/x4
 		pciephy_2: pciephy_2@6C02f81000 {
-			compatible = "sophgo,pcie-phy";
+			compatible = "rv2036,pcie-phy";
 			#phy-cells = <1>;
 			reg = <0x6c 0x04781000 0x0 0x00001000>;
 			bus-width = <8>;
@@ -81,7 +81,7 @@
 
 		//c2c3 x8/x4
 		pciephy_3: pciephy_3@6C02781000 {
-			compatible = "sophgo,pcie-phy";
+			compatible = "rv2036,pcie-phy";
 			#phy-cells = <1>;
 			reg = <0x6c 0x06781000 0x0 0x00001000>;
 			bus-width = <8>;
@@ -89,7 +89,7 @@
 
 		//c2c4 x8/x4
 		pciephy_4: pciephy_4@6C08781000 {
-			compatible = "sophgo,pcie-phy";
+			compatible = "rv2036,pcie-phy";
 			#phy-cells = <1>;
 			reg = <0x6c 0x08781000 0x0 0x00001000>;
 			bus-width = <8>;
@@ -97,7 +97,7 @@
 
 		//c2c0_x8
 		pcie_rc_0: pcie@6c00400000 {
-			compatible = "sophgo,bm1690-c2c-pcie-host";
+			compatible = "rv2036,rv2266-c2c-pcie-host";
 			device_type = "pci";
 			#address-cells = <3>;
 			#size-cells = <2>;
@@ -148,7 +148,7 @@
 
 		//c2c0_x4
 		pcie_rc_1: pcie@6c00800000 {
-			compatible = "sophgo,bm1690-c2c-pcie-host";
+			compatible = "rv2036,rv2266-c2c-pcie-host";
 			device_type = "pci";
 			#address-cells = <3>;
 			#size-cells = <2>;
@@ -200,7 +200,7 @@
 
 		//c2c1_x8
 		pcie_rc_2: pcie@6c02400000 {
-			compatible = "sophgo,bm1690-c2c-pcie-host";
+			compatible = "rv2036,rv2266-c2c-pcie-host";
 			device_type = "pci";
 			#address-cells = <3>;
 			#size-cells = <2>;
@@ -252,7 +252,7 @@
 
 		//c2c1_x4
 		pcie_rc_3: pcie@6c02800000 {
-			compatible = "sophgo,bm1690-pcie-host";
+			compatible = "rv2036,rv2266-pcie-host";
 			device_type = "pci";
 			#address-cells = <3>;
 			#size-cells = <2>;
@@ -305,7 +305,7 @@
 
 		//c2c2_x8
 		pcie_rc_4: pcie@6c04400000 {
-			compatible = "sophgo,bm1690-c2c-pcie-host";
+			compatible = "rv2036,rv2266-c2c-pcie-host";
 			device_type = "pci";
 			#address-cells = <3>;
 			#size-cells = <2>;
@@ -357,7 +357,7 @@
 
 		//c2c2_x4
 		pcie_rc_5: pcie@6c04800000 {
-			compatible = "sophgo,bm1690-c2c-pcie-host";
+			compatible = "rv2036,rv2266-c2c-pcie-host";
 			device_type = "pci";
 			#address-cells = <3>;
 			#size-cells = <2>;
@@ -409,7 +409,7 @@
 
 		//c2c3_x8
 		pcie_rc_6: pcie@6c06400000 {
-			compatible = "sophgo,bm1690-c2c-pcie-host";
+			compatible = "rv2036,rv2266-c2c-pcie-host";
 			device_type = "pci";
 			#address-cells = <3>;
 			#size-cells = <2>;
@@ -460,7 +460,7 @@
 
 		//c2c3_x4
 		pcie_rc_7: pcie@6c06800000 {
-			compatible = "sophgo,bm1690-c2c-pcie-host";
+			compatible = "rv2036,rv2266-c2c-pcie-host";
 			device_type = "pci";
 			#address-cells = <3>;
 			#size-cells = <2>;
@@ -511,7 +511,7 @@
 
 		//c2c4_x8 cascade rc
 		pcie_rc_8: pcie@6c08400000 {
-			compatible = "sophgo,bm1690-pcie-host";
+			compatible = "rv2036,rv2266-pcie-host";
 			device_type = "pci";
 			#address-cells = <3>;
 			#size-cells = <2>;
@@ -562,7 +562,7 @@
 
 		//c2c4_x4
 		pcie_rc_9: pcie@6c08800000 {
-			compatible = "sophgo,bm1690-c2c-pcie-host";
+			compatible = "rv2036,rv2266-c2c-pcie-host";
 			device_type = "pci";
 			#address-cells = <3>;
 			#size-cells = <2>;
@@ -613,7 +613,7 @@
 
 		//c2c0_x8
 		pcie_ep_0: pcie_ep@6c00000000 {
-			compatible = "sophgo,c2c-link-ep";
+			compatible = "rv2036,c2c-link-ep";
 			chip_type = "bm1690e";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -646,7 +646,7 @@
 
 		//c2c0_x4
 		pcie_ep_1: pcie_ep@6c00800000 {
-			compatible = "sophgo,c2c-link-ep";
+			compatible = "rv2036,c2c-link-ep";
 			chip_type = "bm1690e";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -679,7 +679,7 @@
 
 		//c2c1_x8
 		pcie_ep_2: pcie_ep@6c02400000 {
-			compatible = "sophgo,pcie-link-ep";
+			compatible = "rv2036,pcie-link-ep";
 			chip_type = "bm1690e";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -712,7 +712,7 @@
 
 		//c2c1_x4
 		pcie_ep_3: pcie_ep@6c02800000 {
-			compatible = "sophgo,c2c-link-ep";
+			compatible = "rv2036,c2c-link-ep";
 			chip_type = "bm1690e";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -745,7 +745,7 @@
 
 		//c2c2_x8
 		pcie_ep_4: pcie_ep@6c04400000 {
-			compatible = "sophgo,c2c-link-ep";
+			compatible = "rv2036,c2c-link-ep";
 			chip_type = "bm1690e";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -778,7 +778,7 @@
 
 		//c2c2_x4
 		pcie_ep_5: pcie_ep@6c04800000 {
-			compatible = "sophgo,c2c-link-ep";
+			compatible = "rv2036,c2c-link-ep";
 			chip_type = "bm1690e";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -811,7 +811,7 @@
 
 		//c2c3_x8
 		pcie_ep_6: pcie_ep@6c06400000 {
-			compatible = "sophgo,c2c-link-ep";
+			compatible = "rv2036,c2c-link-ep";
 			chip_type = "bm1690e";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -844,7 +844,7 @@
 
 		//c2c3_x4
 		pcie_ep_7: pcie_ep@6c06800000 {
-			compatible = "sophgo,c2c-link-ep";
+			compatible = "rv2036,c2c-link-ep";
 			chip_type = "bm1690e";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -877,7 +877,7 @@
 
 		//c2c4_x8
 		pcie_ep_8: pcie_ep@6c08400000 {
-			compatible = "sophgo,c2c-link-ep";
+			compatible = "rv2036,c2c-link-ep";
 			chip_type = "bm1690e";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -910,7 +910,7 @@
 
 		//c2c4_x4
 		pcie_ep_9: pcie_ep@6c08800000 {
-			compatible = "sophgo,c2c-link-ep";
+			compatible = "rv2036,c2c-link-ep";
 			chip_type = "bm1690e";
 			#address-cells = <2>;
 			#size-cells = <2>;

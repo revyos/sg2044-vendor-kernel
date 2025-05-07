@@ -82,7 +82,7 @@ struct c2c_chip_info {
 };
 
 static const struct of_device_id sophgo_dw_c2c_pcie_of_match[] = {
-	{ .compatible = "sophgo,bm1690-c2c-pcie-host", },
+	{ .compatible = "rv2036,rv2266-c2c-pcie-host", },
 	{},
 };
 
@@ -219,7 +219,7 @@ static struct c2c_chip_info bm1690_c2c_if = {
 };
 
 static const struct of_device_id c2c_enable_of_match[] = {
-	{ .compatible = "sophgo,c2c_enable", .data = &bm1690_c2c_if},
+	{ .compatible = "rv2036,c2c_enable", .data = &bm1690_c2c_if},
 	{ /* Sentinel */ }
 };
 MODULE_DEVICE_TABLE(of, c2c_enable_of_match);

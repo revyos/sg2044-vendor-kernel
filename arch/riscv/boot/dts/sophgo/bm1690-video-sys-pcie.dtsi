@@ -11,7 +11,7 @@
 
 		// video & jpeg
 		vc_drv {
-			compatible = "sophgo,vc_drv";
+			compatible = "rv2036,vc_drv";
 			reg = <0x6b 0x00180000 0x0 0x10000>, <0x6b 0x00190000 0x0 0x10000>,
 				<0x6b 0x001a0000 0x0 0x10000>, <0x6b 0x001b0000 0x0 0x10000>,
 				<0x6b 0x02180000 0x0 0x10000>, <0x6b 0x02190000 0x0 0x10000>,
@@ -66,7 +66,7 @@
 		};
 
 		ve_slt {
-			compatible = "sophgo,ve_slt";
+			compatible = "rv2036,ve_slt";
 			interrupt-parent = <&intc>;
 			interrupts =<148 IRQ_TYPE_LEVEL_HIGH>, <149 IRQ_TYPE_LEVEL_HIGH>,
 				<188 IRQ_TYPE_LEVEL_HIGH>, <189 IRQ_TYPE_LEVEL_HIGH>,
@@ -75,7 +75,7 @@
 		};
 
 		rp_media{
-			compatible = "sophgo,rp_media";
+			compatible = "rv2036,rp_media";
 			interrupt-parent = <&intc>;
 			interrupts =<323 IRQ_TYPE_LEVEL_HIGH>,<324 IRQ_TYPE_LEVEL_HIGH>,<325 IRQ_TYPE_LEVEL_HIGH>,<326 IRQ_TYPE_LEVEL_HIGH>,
 				<327 IRQ_TYPE_LEVEL_HIGH>,<328 IRQ_TYPE_LEVEL_HIGH>,<329 IRQ_TYPE_LEVEL_HIGH>,<330 IRQ_TYPE_LEVEL_HIGH>,
@@ -85,7 +85,7 @@
 		};
 
 		vpss {
-			compatible = "sophgo,vpss";
+			compatible = "rv2036,vpss";
 			reg = <0x0000006B 0x00100000 0x00000000 0x0007FFFF>,
 				<0x0000006B 0x02100000 0x00000000 0x0007FFFF>,
 				<0x0000006B 0x04100000 0x00000000 0x0007FFFF>,

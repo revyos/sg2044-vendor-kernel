@@ -5,7 +5,7 @@ make CHIP=bm1690
 
 ## bm1690 dtb example for sgtpu
 	sgtpu {
-		compatible = "sophgo,tpu-1690";
+		compatible = "rv2036,tpu-2266";
 		reg = <0x70 0x50000000 0x0 0x8000>,
 			<0x69 0x08050000 0x0 0x3000>, 	// TPSYS0_SYS_REG, size should be 0C00
 			<0x69 0x18050000 0x0 0x3000>,
@@ -25,7 +25,7 @@ make CHIP=bm1686
 
 ## bm1686 dtb example for sgtpu
 	sgtpu {
-		compatible = "sophgo,tpu-1684";
+		compatible = "rv2036,tpu-2260";
 		reg = <0x0 0x50010000 0x0 0x300000>,
 			<0x0 0x58000000 0x0 0x10000>;
 		sophgo_fw_mode = <FW_SOC_MODE>;

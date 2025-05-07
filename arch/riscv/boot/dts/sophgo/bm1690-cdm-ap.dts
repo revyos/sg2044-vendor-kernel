@@ -45,7 +45,7 @@
 		};
 
 		vtty0: vtty@bfff0000 {
-			compatible = "sophgo,vtty-ap";
+			compatible = "rv2036,vtty-ap";
 			#size-cells = <0x2>;
 			#address-cells = <0x2>;
 			reg = <0x1f 0x1fff1000 0x0 0x1000>,
@@ -56,7 +56,7 @@
 			interrupts = <362 IRQ_TYPE_LEVEL_HIGH>;
 		};
 		vtty1: vtty@bfff2000 {
-			compatible = "sophgo,vtty-ap";
+			compatible = "rv2036,vtty-ap";
 			#size-cells = <0x2>;
 			#address-cells = <0x2>;
 			reg = <0x1f 0x1fff3000 0x0 0x1000>,
@@ -67,7 +67,7 @@
 			interrupts = <363 IRQ_TYPE_LEVEL_HIGH>;
 		};
 		vtty2: vtty@bfff4000 {
-			compatible = "sophgo,vtty-ap";
+			compatible = "rv2036,vtty-ap";
 			#size-cells = <0x2>;
 			#address-cells = <0x2>;
 			reg = <0x1f 0x1fff5000 0x0 0x1000>,
@@ -78,7 +78,7 @@
 			interrupts = <364 IRQ_TYPE_LEVEL_HIGH>;
 		};
 		vtty3: vtty@bfff6000 {
-			compatible = "sophgo,vtty-ap";
+			compatible = "rv2036,vtty-ap";
 			#size-cells = <0x2>;
 			#address-cells = <0x2>;
 			reg = <0x1f 0x1fff7000 0x0 0x1000>,
@@ -89,7 +89,7 @@
 			interrupts = <365 IRQ_TYPE_LEVEL_HIGH>;
 		};
 		vtty4: vtty@bfff8000 {
-			compatible = "sophgo,vtty-ap";
+			compatible = "rv2036,vtty-ap";
 			#size-cells = <0x2>;
 			#address-cells = <0x2>;
 			reg = <0x1f 0x1fff9000 0x0 0x1000>,
@@ -100,7 +100,7 @@
 			interrupts = <366 IRQ_TYPE_LEVEL_HIGH>;
 		};
 		vtty5: vtty@bfffa000 {
-			compatible = "sophgo,vtty-ap";
+			compatible = "rv2036,vtty-ap";
 			#size-cells = <0x2>;
 			#address-cells = <0x2>;
 			reg = <0x1f 0x1fffb000 0x0 0x1000>,
@@ -111,7 +111,7 @@
 			interrupts = <367 IRQ_TYPE_LEVEL_HIGH>;
 		};
 		vtty6: vtty@bfffc000 {
-			compatible = "sophgo,vtty-ap";
+			compatible = "rv2036,vtty-ap";
 			#size-cells = <0x2>;
 			#address-cells = <0x2>;
 			reg = <0x1f 0x1fffd000 0x0 0x1000>,
@@ -122,7 +122,7 @@
 			interrupts = <368 IRQ_TYPE_LEVEL_HIGH>;
 		};
 		vtty7: vtty@bfffe000 {
-			compatible = "sophgo,vtty-ap";
+			compatible = "rv2036,vtty-ap";
 			#size-cells = <0x2>;
 			#address-cells = <0x2>;
 			reg = <0x1f 0x1ffff000 0x0 0x1000>,
@@ -147,7 +147,7 @@
 		};
 
 		tysys_err_intr: tysys_err_intr {
-			compatible = "sophgo,tpsys-err-intr";
+			compatible = "rv2036,tpsys-err-intr";
 			interrupt-parent = <&intc>;
 			interrupts = <312 IRQ_TYPE_LEVEL_HIGH>, <313 IRQ_TYPE_LEVEL_HIGH>,
 						<314 IRQ_TYPE_LEVEL_HIGH>, <315 IRQ_TYPE_LEVEL_HIGH>,

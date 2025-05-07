@@ -40,7 +40,7 @@
 		};
 
 		sgtpu {
-			compatible = "sophgo,tpu-1690";
+			compatible = "rv2036,tpu-2266";
 			reg = <0x70 0x50000000 0x0 0x8000>,
 				<0x69 0x08050000 0x0 0x3000>, 	// TPSYS0_SYS_REG, size should be 0C00
 				<0x69 0x18050000 0x0 0x3000>,
@@ -54,7 +54,7 @@
 		};
 
 		pcie_ep@0 {
-			compatible = "sophgo,pcie-link-ep";
+			compatible = "rv2036,pcie-link-ep";
 			chip_type = "bm1690";
 			#address-cells = <2>;
 			#size-cells = <2>;

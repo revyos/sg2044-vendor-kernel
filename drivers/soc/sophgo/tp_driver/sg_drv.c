@@ -185,8 +185,8 @@ static void sgdrv_clkrst_deinit(struct platform_device *pdev, struct sg_dev *sgd
 #endif
 
 static const struct of_device_id sgdrv_match_table[]  = {
-	{ .compatible = "sophgo,tpu-1690" },
-	{ .compatible = "sophgo,tpu-1684" },
+	{ .compatible = "rv2036,tpu-2266" },
+	{ .compatible = "rv2036,tpu-2260" },
 	{},
 };
 

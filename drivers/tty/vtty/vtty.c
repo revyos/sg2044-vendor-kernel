@@ -515,10 +515,10 @@ static void sg_vtty_remove(struct platform_device *pdev)
 
 static const struct of_device_id sg_vtty_of_match[] = {
 	{
-		.compatible = "sophgo,vtty-tp",
+		.compatible = "rv2036,vtty-tp",
 	},
 	{
-		.compatible = "sophgo,vtty-ap",
+		.compatible = "rv2036,vtty-ap",
 	},
 	{},
 };

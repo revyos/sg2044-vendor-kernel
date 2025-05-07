@@ -269,7 +269,7 @@ static const struct pwm_ops pwm_sophgo_ops = {
 
 static const struct of_device_id sophgo_pwm_match[] = {
 	{
-		.compatible = "sophgo,sg-pwm",
+		.compatible = "rv2036,sg-pwm",
 		.data = &pwm_sophgo_ops,
 	},
 	{ },

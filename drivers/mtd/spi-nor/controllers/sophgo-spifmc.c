@@ -535,7 +535,7 @@ static void sophgo_spifmc_remove(struct platform_device *pdev)
 }
 
 static const struct of_device_id sophgo_spifmc_match[] = {
-	{.compatible = "sophgo,spifmc"},
+	{.compatible = "rv2036,spifmc"},
 	{ /* sentinel */ }
 };
 MODULE_DEVICE_TABLE(of, sophgo_spifmc_match);

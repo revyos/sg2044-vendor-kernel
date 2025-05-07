@@ -152,14 +152,14 @@ static int sgcard_remove(struct platform_device *pdev)
 }
 
 static struct of_device_id sophgo_card_of_match[] = {
-	{ .compatible = "sophgo,sophgo-memory-performance",},
+	{ .compatible = "rv2036,rv2036-memory-performance",},
 	{ /* Sentinel */ }
 };
 MODULE_DEVICE_TABLE(of, sophgo_card_of_match);
 
 static struct platform_driver sg_card_platform_driver = {
 	.driver = {
-		.name		= "sophgo,sophgo-memory-performance",
+		.name		= "rv2036,rv2036-memory-performance",
 		.of_match_table	= sophgo_card_of_match,
 	},
 	.probe			= sgcard_probe,

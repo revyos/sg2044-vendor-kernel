@@ -5,7 +5,7 @@
 
 #if defined BM1690_PCIE_MODE
 		pcie_ep@0 {
-			compatible = "sophgo,pcie-link-ep";
+			compatible = "rv2036,pcie-link-ep";
 			chip_type = "bm1690";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -118,7 +118,7 @@
 #endif
 
 pcie_ep@1 {
-	compatible = "sophgo,C2C-link-ep";
+	compatible = "rv2036,C2C-link-ep";
 	chip_type = "bm1690";
 	#address-cells = <2>;
 	#size-cells = <2>;
@@ -136,7 +136,7 @@ pcie_ep@1 {
 
 // dtb example for 1684x
 pcie_ep@0 {
-	compatible = "sophgo,pcie-link-ep";
+	compatible = "rv2036,pcie-link-ep";
 	chip_type = "bm1684x";
 	#address-cells = <2>;
 	#size-cells = <2>;

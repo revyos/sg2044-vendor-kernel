@@ -62,45 +62,45 @@
 		};
 		//c2c0 x8/x4_1
 		pciephy_0: pciephy_0@6C00f81000 {
-			compatible = "sophgo,pcie-phy";
+			compatible = "rv2036,pcie-phy";
 			#phy-cells = <1>;
 			reg = <0x6c 0x00f81000 0x0 0x00001000>;
 			bus-width = <8>;
 		};
 		//c2c0 x8/x4_0
 		pciephy_1: pciephy_1@6C00781000 {
-			compatible = "sophgo,pcie-phy";
+			compatible = "rv2036,pcie-phy";
 			#phy-cells = <1>;
 			reg = <0x6c 0x00781000 0x0 0x00001000>;
 			bus-width = <8>;
 		};
 		//c2c1 x8/x4_1
 		pciephy_2: pciephy_2@6C02f81000 {
-			compatible = "sophgo,pcie-phy";
+			compatible = "rv2036,pcie-phy";
 			#phy-cells = <1>;
 			reg =	<0x6c 0x02f81000 0x0 0x00001000>;
 			bus-width = <8>;
 		};
 		//c2c1 x8/x4_0
 		pciephy_3: pciephy_3@6C02781000 {
-			compatible = "sophgo,pcie-phy";
+			compatible = "rv2036,pcie-phy";
 			#phy-cells = <1>;
 			reg = <0x6c 0x02781000 0x0 0x00001000>;
 			bus-width = <8>;
 		};
 		//cxp x8/x4
 		pciephy_4: pciephy_4@6C08781000 {
-			compatible = "sophgo,pcie-phy";
+			compatible = "rv2036,pcie-phy";
 			#phy-cells = <1>;
 			reg = <0x6c 0x08781000 0x0 0x00001000>;
 			bus-width = <8>;
 		};
 		c2c_enable {
-			compatible = "sophgo,c2c_enable";
+			compatible = "rv2036,c2c_enable";
 		};
 		//c2c0_x8_1 c2c rc (on board)
 		pcie_rc_0: pcie@6c00000000 {
-			compatible = "sophgo,bm1690-c2c-pcie-host";
+			compatible = "rv2036,rv2266-c2c-pcie-host";
 			device_type = "pci";
 			#address-cells = <3>;
 			#size-cells = <2>;
@@ -145,7 +145,7 @@
 		};
 		//c2c0_x8_0
 		pcie_rc_1: pcie@6c00400000 {
-			compatible = "sophgo,bm1690-c2c-pcie-host";
+			compatible = "rv2036,rv2266-c2c-pcie-host";
 			device_type = "pci";
 			#address-cells = <3>;
 			#size-cells = <2>;
@@ -190,7 +190,7 @@
 		};
 		//c2c1_x8_1
 		pcie_rc_4: pcie@6c02000000 {
-			compatible = "sophgo,bm1690-c2c-pcie-host";
+			compatible = "rv2036,rv2266-c2c-pcie-host";
 			device_type = "pci";
 			#address-cells = <3>;
 			#size-cells = <2>;
@@ -235,7 +235,7 @@
 		};
 		//c2c1_x8_0
 		pcie_rc_5: pcie@6c02400000 {
-			compatible = "sophgo,bm1690-c2c-pcie-host";
+			compatible = "rv2036,rv2266-c2c-pcie-host";
 			device_type = "pci";
 			#address-cells = <3>;
 			#size-cells = <2>;
@@ -280,7 +280,7 @@
 		};
 		//cxp
 		pcie_rc_8: pcie@6c08400000 {
-			compatible = "sophgo,bm1690-c2c-pcie-host";
+			compatible = "rv2036,rv2266-c2c-pcie-host";
 			device_type = "pci";
 			#address-cells = <3>;
 			#size-cells = <2>;
@@ -325,7 +325,7 @@
 		};
 		//c2c0_x8_1 c2c ep (on board)
 		pcie_ep_0: pcie_ep@6c00000000 {
-			compatible = "sophgo,c2c-link-ep";
+			compatible = "rv2036,c2c-link-ep";
 			chip_type = "bm1690";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -353,7 +353,7 @@
 		};
 		//c2c0_x8_0
 		pcie_ep_1: pcie_ep@6c00400000 {
-			compatible = "sophgo,pcie-link-ep";
+			compatible = "rv2036,pcie-link-ep";
 			chip_type = "bm1690";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -420,7 +420,7 @@
 		};
 		//c2c1_x8_1
 		pcie_ep_4: pcie_ep@6c02000000 {
-			compatible = "sophgo,c2c-link-ep";
+			compatible = "rv2036,c2c-link-ep";
 			chip_type = "bm1690";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -448,7 +448,7 @@
 		};
 		//c2c1_x8_0
 		pcie_ep_5: pcie_ep@6c02400000 {
-			compatible = "sophgo,c2c-link-ep";
+			compatible = "rv2036,c2c-link-ep";
 			chip_type = "bm1690";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -476,7 +476,7 @@
 		};
 		//cxp
 		pcie_ep_8: pcie_ep@6c08400000 {
-			compatible = "sophgo,c2c-link-ep";
+			compatible = "rv2036,c2c-link-ep";
 			chip_type = "bm1690";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -504,7 +504,7 @@
 		};
 
 		ap_ras@0 {
-			compatible = "sophgo,bm1690-ras";
+			compatible = "rv2036,rv2266-ras";
 			chip_type = "bm1690";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -514,7 +514,7 @@
 		};
 
 		tp0_ras@0 {
-			compatible = "sophgo,bm1690-ras";
+			compatible = "rv2036,rv2266-ras";
 			chip_type = "bm1690";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -524,7 +524,7 @@
 		};
 
 		tp1_ras@1 {
-			compatible = "sophgo,bm1690-ras";
+			compatible = "rv2036,rv2266-ras";
 			chip_type = "bm1690";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -534,7 +534,7 @@
 		};
 
 		tp2_ras@2 {
-			compatible = "sophgo,bm1690-ras";
+			compatible = "rv2036,rv2266-ras";
 			chip_type = "bm1690";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -544,7 +544,7 @@
 		};
 
 		tp3_ras@3 {
-			compatible = "sophgo,bm1690-ras";
+			compatible = "rv2036,rv2266-ras";
 			chip_type = "bm1690";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -554,7 +554,7 @@
 		};
 
 		tp4_ras@4 {
-			compatible = "sophgo,bm1690-ras";
+			compatible = "rv2036,rv2266-ras";
 			chip_type = "bm1690";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -564,7 +564,7 @@
 		};
 
 		tp5_ras@5 {
-			compatible = "sophgo,bm1690-ras";
+			compatible = "rv2036,rv2266-ras";
 			chip_type = "bm1690";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -574,7 +574,7 @@
 		};
 
 		tp6_ras@6 {
-			compatible = "sophgo,bm1690-ras";
+			compatible = "rv2036,rv2266-ras";
 			chip_type = "bm1690";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -584,7 +584,7 @@
 		};
 
 		tp7_ras@7 {
-			compatible = "sophgo,bm1690-ras";
+			compatible = "rv2036,rv2266-ras";
 			chip_type = "bm1690";
 			#address-cells = <2>;
 			#size-cells = <2>;
@@ -606,7 +606,7 @@
 			status = "okay";
 		};
 		vtty0: vtty@bfff0000 {
-			compatible = "sophgo,vtty-ap";
+			compatible = "rv2036,vtty-ap";
 			#size-cells = <0x2>;
 			#address-cells = <0x2>;
 			reg = <0x1f 0x1fff1000 0x0 0x1000>,
@@ -617,7 +617,7 @@
 			interrupts = <362 IRQ_TYPE_LEVEL_HIGH>;
 		};
 		vtty1: vtty@bfff2000 {
-			compatible = "sophgo,vtty-ap";
+			compatible = "rv2036,vtty-ap";
 			#size-cells = <0x2>;
 			#address-cells = <0x2>;
 			reg = <0x1f 0x1fff3000 0x0 0x1000>,
@@ -628,7 +628,7 @@
 			interrupts = <363 IRQ_TYPE_LEVEL_HIGH>;
 		};
 		vtty2: vtty@bfff4000 {
-			compatible = "sophgo,vtty-ap";
+			compatible = "rv2036,vtty-ap";
 			#size-cells = <0x2>;
 			#address-cells = <0x2>;
 			reg = <0x1f 0x1fff5000 0x0 0x1000>,
@@ -639,7 +639,7 @@
 			interrupts = <364 IRQ_TYPE_LEVEL_HIGH>;
 		};
 		vtty3: vtty@bfff6000 {
-			compatible = "sophgo,vtty-ap";
+			compatible = "rv2036,vtty-ap";
 			#size-cells = <0x2>;
 			#address-cells = <0x2>;
 			reg = <0x1f 0x1fff7000 0x0 0x1000>,
@@ -650,7 +650,7 @@
 			interrupts = <365 IRQ_TYPE_LEVEL_HIGH>;
 		};
 		vtty4: vtty@bfff8000 {
-			compatible = "sophgo,vtty-ap";
+			compatible = "rv2036,vtty-ap";
 			#size-cells = <0x2>;
 			#address-cells = <0x2>;
 			reg = <0x1f 0x1fff9000 0x0 0x1000>,
@@ -661,7 +661,7 @@
 			interrupts = <366 IRQ_TYPE_LEVEL_HIGH>;
 		};
 		vtty5: vtty@bfffa000 {
-			compatible = "sophgo,vtty-ap";
+			compatible = "rv2036,vtty-ap";
 			#size-cells = <0x2>;
 			#address-cells = <0x2>;
 			reg = <0x1f 0x1fffb000 0x0 0x1000>,
@@ -672,7 +672,7 @@
 			interrupts = <367 IRQ_TYPE_LEVEL_HIGH>;
 		};
 		vtty6: vtty@bfffc000 {
-			compatible = "sophgo,vtty-ap";
+			compatible = "rv2036,vtty-ap";
 			#size-cells = <0x2>;
 			#address-cells = <0x2>;
 			reg = <0x1f 0x1fffd000 0x0 0x1000>,
@@ -683,7 +683,7 @@
 			interrupts = <368 IRQ_TYPE_LEVEL_HIGH>;
 		};
 		vtty7: vtty@bfffe000 {
-			compatible = "sophgo,vtty-ap";
+			compatible = "rv2036,vtty-ap";
 			#size-cells = <0x2>;
 			#address-cells = <0x2>;
 			reg = <0x1f 0x1ffff000 0x0 0x1000>,

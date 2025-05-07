@@ -682,7 +682,7 @@ static void rxu_remove(struct platform_device *pdev)
 }
 
 static const struct of_device_id rxu_match[] = {
-	{.compatible = "sophgo,rxu"},
+	{.compatible = "rv2036,rxu"},
 	{},
 };
 
