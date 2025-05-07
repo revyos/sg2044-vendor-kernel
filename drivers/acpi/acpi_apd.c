@@ -265,8 +265,8 @@ static const struct acpi_device_id acpi_apd_device_ids[] = {
 	{ "NXP0001", APD_ADDR(nxp_i2c_desc) },
 #endif
 #ifdef CONFIG_RISCV
-	{ "SOPH0003", APD_ADDR(sophgo_i2c_desc) },
-	{ "SOPH0004", APD_ADDR(sophgo_spi_desc) },
+	{ "XTCV0003", APD_ADDR(sophgo_i2c_desc) },
+	{ "XTCV0004", APD_ADDR(sophgo_spi_desc) },
 #endif
 
 	{ }

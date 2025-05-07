@@ -150,7 +150,7 @@ static void sophgo_reset_remove(struct acpi_device *device)
 }
 
 static const struct acpi_device_id sophgo_reset_ids[] = {
-	{ "SOPH0013", 0 }, /* SOPHGO Reset Button HID */
+	{ "XTCV0013", 0 }, /* SOPHGO Reset Button HID */
 	{ },
 };
 MODULE_DEVICE_TABLE(acpi, sophgo_reset_ids);

@@ -1965,7 +1965,7 @@ static int sophgo_pcie_init(struct pci_config_window *cfg)
 	pcie->dev = dev;
 	pp = &pcie->pp;
 
-	ret = acpi_get_rc_target_num_resources(dev, "SOPH0000", root->segment, res, 4);
+	ret = acpi_get_rc_target_num_resources(dev, "XTCV0000", root->segment, res, 4);
 
 	ret = sophgo_dw_pcie_get_resources_acpi(pcie, res);
 	if (ret)

@@ -368,7 +368,7 @@ MODULE_DEVICE_TABLE(of, sg_dwmac_match);
 
 #ifdef CONFIG_ACPI
 static const struct acpi_device_id sg_dwmac_acpi_match[] = {
-	{ "SOPH0006", 0 },
+	{ "XTCV0006", 0 },
 	{}
 };
 #endif
