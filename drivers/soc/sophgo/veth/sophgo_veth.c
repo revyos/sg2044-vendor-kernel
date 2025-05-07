@@ -681,4 +681,4 @@ module_platform_driver(sg_veth_driver);
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Dong Yang <dong.yang@sophgon.com>");
-MODULE_DESCRIPTION("Sophgon Virtual Ethernet Driver over PCIe");
+MODULE_DESCRIPTION("RV2036 Virtual Ethernet Driver over PCIe");

@@ -1,7 +1,7 @@
 /*
- * Sophgo SoCs Reset Controller driver
+ * RV2036 SoCs Reset Controller driver
  *
- * Copyright (c) 2024 Sophgo Ltd.
+ * Copyright (c) 2024 RV2036 Ltd.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -159,5 +159,5 @@ static int __init sg2044_reset_init(void)
 postcore_initcall(sg2044_reset_init);
 
 MODULE_AUTHOR("Dong Yang<dong.yang@sophgo.com>");
-MODULE_DESCRIPTION("Sophgo SoC SG2044 Reset Controoler Driver");
+MODULE_DESCRIPTION("RV2036 SoC C920V2 Reset Controoler Driver");
 MODULE_LICENSE("GPL");

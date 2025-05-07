@@ -583,4 +583,4 @@ module_platform_driver(sg_p2p_driver);
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("ChengJun Li <chengjun.li@sophon.com>");
-MODULE_DESCRIPTION("Sophgon P2P Ethernet Driver over 100G eth");
+MODULE_DESCRIPTION("RV2036 P2P Ethernet Driver over 100G eth");

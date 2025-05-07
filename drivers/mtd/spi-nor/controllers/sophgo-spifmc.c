@@ -2,7 +2,7 @@
 /*
  * SPI Flash Master Controller (SPIFMC)
  *
- * Copyright (c) 2023 Sophgo.
+ * Copyright (c) 2023 RV2036.
  */
 #include <linux/iopoll.h>
 #include <linux/module.h>
@@ -550,5 +550,5 @@ static struct platform_driver sophgo_spifmc_driver = {
 };
 module_platform_driver(sophgo_spifmc_driver);
 
-MODULE_DESCRIPTION("Sophgo SPI Flash Master Controller Driver");
+MODULE_DESCRIPTION("RV2036 SPI Flash Master Controller Driver");
 MODULE_LICENSE("GPL v2");

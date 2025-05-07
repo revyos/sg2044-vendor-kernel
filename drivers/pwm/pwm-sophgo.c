@@ -397,4 +397,4 @@ module_platform_driver(pwm_sophgo_driver);
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Kun.Chang");
-MODULE_DESCRIPTION("Sophgo PWM driver");
+MODULE_DESCRIPTION("RV2036 PWM driver");
