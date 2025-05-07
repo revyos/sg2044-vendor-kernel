@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * SOPHGO Reset button ACPI driver
+ * Rv2036 Reset button ACPI driver
  *
  * Copyright (C) 2025, Jingyu Li <jingyu.li01@sophgo.com>
  */
 
-#define pr_fmt(fmt) "ACPI: SOPHGO reset button: " fmt
+#define pr_fmt(fmt) "ACPI: RV2036 reset button: " fmt
 
 #include <linux/kernel.h>
 #include <linux/module.h>
@@ -15,7 +15,7 @@
 #include <linux/acpi.h>
 #include <linux/slab.h>
 
-#define ACPI_SOPHGO_NAME		"SOPHGO Reset Button"
+#define ACPI_SOPHGO_NAME		"RV2036 Reset Button"
 #define ACPI_SOPHGO_CLASS		"Reset"
 #define ACPI_SOPHGO_NOTIFY_STATUS	0x80
 
@@ -101,7 +101,7 @@ static int sophgo_reset_add(struct acpi_device *device)
 	snprintf(button->phys, sizeof(button->phys),
 			"%s/reset/input0", acpi_device_hid(device));
 
-	input->name = "SOPHGO Reset Button";
+	input->name = "RV2036 Reset Button";
 	input->phys = button->phys;
 	input->id.bustype = BUS_HOST;
 	input->dev.parent = &device->dev;
@@ -150,7 +150,7 @@ static void sophgo_reset_remove(struct acpi_device *device)
 }
 
 static const struct acpi_device_id sophgo_reset_ids[] = {
-	{ "XTCV0013", 0 }, /* SOPHGO Reset Button HID */
+	{ "XTCV0013", 0 }, /* RV2036 Reset Button HID */
 	{ },
 };
 MODULE_DEVICE_TABLE(acpi, sophgo_reset_ids);
@@ -169,5 +169,5 @@ static struct acpi_driver sophgo_reset_driver = {
 module_acpi_driver(sophgo_reset_driver);
 
 MODULE_AUTHOR("Jingyu Li <jingyu.li01@sophgo.com>");
-MODULE_DESCRIPTION("SOPHGO Reset Button ACPI Driver");
+MODULE_DESCRIPTION("RV2036 Reset Button ACPI Driver");
 MODULE_LICENSE("GPL v2");

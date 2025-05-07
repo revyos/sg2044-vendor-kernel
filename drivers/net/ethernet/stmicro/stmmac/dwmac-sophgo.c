@@ -226,7 +226,7 @@ static void sg_dwmac_probe_config_dt(struct platform_device *pdev, struct plat_s
 		top_addr = devm_platform_ioremap_resource(pdev, 1);
 		val = readl(top_addr + 0x8);
 		writel(val | (1 << 16), top_addr + 0x8);
-		pr_info("sophgo gmac disable rx delay\n");
+		pr_info("rv2036 gmac disable rx delay\n");
 	}
 
 	if (device_property_read_bool(&pdev->dev, "rv2036,gmac")) {
@@ -378,7 +378,7 @@ static struct platform_driver sg_dwmac_driver = {
 	.probe  = sg_dwmac_probe,
 	.remove_new = stmmac_pltfr_remove,
 	.driver = {
-		.name           = "sg-dwmac",
+		.name           = "rv2036-dwmac",
 		.pm		= &stmmac_pltfr_pm_ops,
 		.of_match_table = sg_dwmac_match,
 		.acpi_match_table = ACPI_PTR(sg_dwmac_acpi_match),
@@ -387,5 +387,5 @@ static struct platform_driver sg_dwmac_driver = {
 module_platform_driver(sg_dwmac_driver);
 
 MODULE_AUTHOR("Yang Dong <dong.yang@sophgo.com>");
-MODULE_DESCRIPTION("Sophgo DWMAC specific glue layer");
+MODULE_DESCRIPTION("RV2036 DWMAC specific glue layer");
 MODULE_LICENSE("GPL");
