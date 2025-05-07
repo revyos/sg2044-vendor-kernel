@@ -2004,7 +2004,7 @@ static int sophgo_pcie_init(struct pci_config_window *cfg)
 	return 0;
 }
 
-const struct pci_ecam_ops sophgo_pci_ecam_ops = {
+const struct pci_ecam_ops rv2036_pci_ecam_ops = {
 	.init         = sophgo_pcie_init,
 	.pci_ops      = {
 		.map_bus    = sophgo_dw_pcie_own_conf_map_bus,
