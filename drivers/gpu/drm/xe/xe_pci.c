@@ -266,7 +266,7 @@ static const struct xe_device_desc dg1_desc = {
 	.dma_mask_size = 39,
 	.has_display = true,
 	.has_heci_gscfi = 1,
-	.require_force_probe = true,
+	.require_force_probe = false,
 };
 
 static const u16 dg2_g10_ids[] = { INTEL_DG2_G10_IDS(NOP), INTEL_ATS_M150_IDS(NOP), 0 };
@@ -288,7 +288,7 @@ static const struct xe_device_desc ats_m_desc = {
 	.pre_gmdid_graphics_ip = &graphics_ip_xehpg,
 	.pre_gmdid_media_ip = &media_ip_xehpm,
 	.dma_mask_size = 46,
-	.require_force_probe = true,
+	.require_force_probe = false,
 
 	DG2_FEATURES,
 	.has_display = false,
@@ -298,7 +298,7 @@ static const struct xe_device_desc dg2_desc = {
 	.pre_gmdid_graphics_ip = &graphics_ip_xehpg,
 	.pre_gmdid_media_ip = &media_ip_xehpm,
 	.dma_mask_size = 46,
-	.require_force_probe = true,
+	.require_force_probe = false,
 
 	DG2_FEATURES,
 	.has_display = true,
@@ -312,7 +312,7 @@ static const __maybe_unused struct xe_device_desc pvc_desc = {
 	.has_display = false,
 	.has_heci_gscfi = 1,
 	.max_remote_tiles = 1,
-	.require_force_probe = true,
+	.require_force_probe = false,
 };
 
 static const struct xe_device_desc mtl_desc = {
